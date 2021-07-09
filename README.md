@@ -1,0 +1,1 @@
+ made using react frontend and firebase backend. done for educational purposes only, dont sue me @instagram.

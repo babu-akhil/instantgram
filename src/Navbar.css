@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.Navbar {
+    border-bottom: 1px solid rgb(206, 206, 206);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: 'Satisfy';
+    font-size: 27px;
+    padding: 10px 20px 7px 20px;
+}
+
+.search {
+    background-color: whitesmoke;
+    border: 1px solid rgb(206, 206, 206);
+    height: 25px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.search:focus {
+    text-align: left;
+    outline: none;
+}
+
+.icons {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    padding: 5px 10px;
+}
+
+.icon img {
+    height: 28px;
+    width: 28px;
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .Navbar {
+        padding: 0px calc((100vw -  1000px)/2);
+    }
+    
+}
